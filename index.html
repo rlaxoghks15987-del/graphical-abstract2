@@ -1,14 +1,29 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유지혁 관찰 시스템 v1.0</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    <h1>🌟 세기의 천재(?) 유지혁 연구소 🌟</h1>
+    
+    <div class="question-box">
+        <p>유지혁은 정말 똑똑한 사람인가요?</p>
+        <div class="button-container">
+            <button id="yes-btn">그렇다 (천재)</button>
+            <button id="no-btn">아니다 (바보)</button>
+        </div>
+    </div>
+
+    <div id="result">
+        🤣🤣🤣 역시 유지혁은 바보였어! 🤣🤣🤣
+        <br>
+        <p style="font-size: 1rem;">이 사실은 전 세계로 생중계 중입니다.</p>
+        <button onclick="location.reload()" style="margin-top: 20px; font-size: 1rem;">다시 측정하기</button>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
